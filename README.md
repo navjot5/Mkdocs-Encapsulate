@@ -10,6 +10,9 @@ This tool allows you to encapsulate a Mkdocs project in a Docker container and p
 ## Usage
 
 ```bash
+# To grant the script execution rights:
+$ chmod +x mkdockerize.sh
+
 # To produce the website and create a tar.gz file:
 $ ./mkdockerize.sh /path/to/project produce
 
